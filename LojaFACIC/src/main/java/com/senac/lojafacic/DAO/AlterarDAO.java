@@ -21,8 +21,7 @@ import java.util.logging.Logger;
 public class AlterarDAO {
     static String url = "jdbc:mysql://localhost:3306/lojafacic";
     static String login = "root";
-    static String senha = "senha";
-    //static String senha = "iguinhoTopz@1";
+    static String senha = "root";
     
     
     public static boolean alterarCliente(Clientes clienteAlterar) {
